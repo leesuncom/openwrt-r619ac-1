@@ -17,4 +17,4 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git diy1 https://github.com/xiaorouji/openwrt-passwall.git;main' feeds.conf.default
 #Add one package to pacakge
-#cp -rf $GITHUB_WORKSPACE/custom package/
+cp -rf $GITHUB_WORKSPACE/custom package/
